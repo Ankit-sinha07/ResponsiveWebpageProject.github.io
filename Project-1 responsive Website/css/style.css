@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(124, 4, 124) rgb(1, 182, 1);
+}
+ html{
+     scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li{
+    list-style: none;
+    padding: 23px 30px;
+    font-family: 'PT Serif', serif;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:darkcyan;
+
+}
+
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 32px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.background{
+    background:rgba(225, 225, 225, 0.7) url('../PHOTO 4k/stretched-1920-1080-1156666.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+   
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+}
+
+.secondhalf{
+    width: 30%;
+}
+
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 6px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 7px 19px;
+    vertical-align:middle;
+    border-radius: 32px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Merienda', cursive;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 98px;
+}
+
+.thumbnail img{
+    width: 250px;
+    border-radius: 21px;
+    margin-top: 56px;
+    box-shadow: 4px 4px 7px;
+}
+
+.aboutpara{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cornsilk;
+}
+
+.aboutpara2{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #b6ffc6;
+}
+
+.contact{
+    height: 34vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.form{
+    max-width: 62%;
+    margin: auto;
+}
+
+.form input{
+    width: 100%;
+    padding: 5px;
+    font-size: 19px;
+    border-radius: 14px;
+    border: 2px solid green ;
+    cursor: pointer;
+    margin: 14px 0px;
+}
+
+.form input:hover{
+    background-color: wheat;
+}
+
+.Button{
+    padding: 8px 20px;
+    margin: 6px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px;
+}
+.Button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 10px wheat;
+}
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.btn-sm:hover{
+    color: black;
+    background-color: wheat;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+*::-webkit-scrollbar-track {
+    background: orange;
+  }
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(133, 1, 167);
+    border-radius: 20px;
+    border: 3px solid rgb(0, 221, 37);
+}
+
